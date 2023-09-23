@@ -2,8 +2,8 @@ class MiniCalculator:
     def __init__(self, zero = 0.0):
         self.zero = zero #valoarea de start a calculatorului
     def operatii_mini_calcualtor(self):
-        print(self.zero)
-        comanda = input('> ')
+        print(self.zero) # printam valoarea de start
+        comanda = input('> ') #dam de la tastatura operatii urmate de numere
         while comanda != 'x': #cat timp comanda este diferita de x calculatorul va face operatii succesive
 
             if '+' in comanda:
